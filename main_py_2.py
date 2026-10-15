@@ -1,0 +1,1 @@
+print("Main py 2 test")
