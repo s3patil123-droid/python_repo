@@ -43,6 +43,7 @@ git commit -m "Updated Python code in feature branch"
 # Step 8: Push new branch to GitHub
 git push -u origin feature_python
 
+<<<<<<< HEAD
 
 
 Merge feature_python into main
@@ -70,3 +71,5 @@ git push origin main
 
 
 
+=======
+>>>>>>> feature_test
