@@ -1,0 +1,72 @@
+https://github.com/s3patil123-droid/python_repo.git
+https://github.com/s3patil123-droid/python_repo
+
+git clone https://github.com/s3patil123-droid/python_repo.git
+
+
+
+Chagne code here in main barch and push in same branch
+==========================================================
+git clone https://github.com/s3patil123-droid/python_repo.git
+git status
+git branch
+git add .
+git commit -m "Updated Python code"
+git pull --rebase origin main
+git push origin main
+
+
+Chagne code here in feature barch and push in new branch
+==========================================================
+
+# Step 1: Check current status
+git status
+
+# Step 2: Switch to main branch
+git switch main
+
+# Step 3: Get latest code from main
+git pull origin main
+
+# Step 4: Create new branch from main and switch to it
+git switch -c feature_python
+
+# Step 5: Check current branch
+git branch
+
+# Step 6: Add updated files
+git add .
+
+# Step 7: Commit changes
+git commit -m "Updated Python code in feature branch"
+
+# Step 8: Push new branch to GitHub
+git push -u origin feature_python
+
+
+
+Merge feature_python into main
+================================
+
+# Step 1: Check current branch and changes
+git status
+git branch
+
+# Step 2: Switch to main branch
+git switch main
+
+# Step 3: Get latest main code from GitHub
+git pull origin main
+
+# Step 4: Merge feature branch into main
+git merge feature_python
+
+# Step 5: Check merge status
+git status
+
+# Step 6: Push updated main branch to GitHub
+git push origin main
+
+
+
+
