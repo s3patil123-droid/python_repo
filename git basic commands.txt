@@ -43,36 +43,3 @@ git commit -m "Updated Python code in feature branch"
 # Step 8: Push new branch to GitHub
 git push -u origin feature_python
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-Merge feature_python into main
-================================
-
-# Step 1: Check current branch and changes
-git status
-git branch
-
-# Step 2: Switch to main branch
-git switch main
-
-# Step 3: Get latest main code from GitHub
-git pull origin main
-
-# Step 4: Merge feature branch into main
-git merge feature_python
-
-# Step 5: Check merge status
-git status
-
-# Step 6: Push updated main branch to GitHub
-git push origin main
-
-
-
-
-=======
->>>>>>> feature_test
-=======
->>>>>>> feature_test
